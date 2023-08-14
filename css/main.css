@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body > header {
+    background-color: #2e333b;
+    padding: 16px 0;
+    color: #e7e1e1;
+}
+
+header li a {
+    color: #e7e1e1;
+    text-decoration: none;
+}
+
+header .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.conteiner{
+    width: 1366px;
+    margin: 0 auto;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.article article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.article article{
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+section h2,
+.article article {
+    margin-bottom: 16px;
+}
+
+.article article h3 {
+margin-top: 8px;
+margin-bottom: 8px;
+}
+
+.article article a:hover {
+    text-decoration: underline;
+}
+
+.article article a {
+    background-color: blue;
+    color:#fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.article article p,
+.article article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+font-size: 34px;
+}
+
+.article article h3 {
+    font-size: 24px;
+}
+
+#sports{
+    background-color: rgba(0, 255, 0, 10%
+    );
+}
+
+#sports .article article a {
+    background-color: rgba(0, 255, 0, 8%);
+    color: black;
+}
+
+header h1 {
+    font-weight: 900;
+}
+
+#economy {
+    background-color: rgba(0, 0, 255, 50%);
+}
+
+#economy .article article a{
+    background-color: rgba(0, 0, 255, 30%);
+}
+
+#economy h2 {
+    color: #e7e1e1;
+}
+
+#economy .article article h3{
+    color: #e7e1e1
+} 
+#entreterimento{
+    background-color: #2e333b;
+}
+#entreterimento article{
+    background-color: rgba(243, 0, 0, 0.12);
+}
+
+#entreterimento h2, h3 {
+    color: white;
+}
+
+#entreterimento .article article a{
+    background-color: rgba(243, 0, 0, 0.12);
+}
+
+#tecnology {
+    background-color: rgb(131, 155, 226);
+}
